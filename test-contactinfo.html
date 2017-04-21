@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Test-Contact Info</title>
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script src="scene-1702.min.js"></script>
+<script>
+	function contactinfo(){
+		var html = '<img src="http://www.architecturalrecord.com/ext/resources/Issues/2016/Nov/lighting/1611-Lighting-Illuminating-Structure-Ginza-Place-01.jpg?1477498932" style="width: 100%; height: auto;">';
+			html+= '<p style="padding: 0px 4px 0px 4px;">';
+			html+=   'Phone: 0-000-0000<br>';
+			html+=   'Email: johndoe@google.com<br>';
+			html+=  'Address: 000 street, City, State / Province, Country<br>';
+			html+= '</p><hr>';
+			html+= '<p style="padding: 0px 4px 0px 4px;">Open: 8:00 - 16:00<p>';
+		scene('Contact Information',html);
+	}
+</script>
+</head>
+<body style="background: #999999;">
+	<button onclick="contactinfo();">Contact Information</button>
+</body>
+</html>
